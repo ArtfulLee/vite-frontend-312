@@ -1,29 +1,18 @@
 :root {
-    /* общий фон */
-    --body-color: #161616;
-    /* цвет заголовков */
-    --title-color: #ffffff;
-    /* цвет подзаголовков */
-    --subtitle-color: #b4bbc5;
-
-    /*  blue color */
-    --cds-blue-400: #0f62fe;
-    --cds-blue-500: #0353e9;
-
-    /* grey color */
-    --cds-grey-400: #525252;
-    --cds-grey-500: #8d8d8d;
-
     /* Background */
     --background-background: #161616;
     --background-background-hover: #353535;
 
     /* Text */
     --text-text-primary: #ffffff;
+    --text-text-secondary: #c6c6c6;
     --text-text-tertiary: #161616;
     --text-text-on-color: #ffffff; /* Text on interactive colors; Text on button colors */
     --text-text-on-color-disabled: #6f6f6f; /* Disabled color for --text-text-on-color */
     --text-text-disabled: #525252;
+
+    /* Layer */
+    --layer-layer-01: #393939;
 
     /* Link */
     --link-link-primary: #78a9ff;

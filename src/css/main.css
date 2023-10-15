@@ -10,8 +10,8 @@ body {
 
 body {
     font-family: "IBM Plex Sans", sans-serif;
-    background-color: var(--body-color);
-    color: var(--title-color);
+    background-color: var(--background-background);
+    color: var(--text-text-primary);
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;

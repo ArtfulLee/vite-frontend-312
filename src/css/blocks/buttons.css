@@ -16,8 +16,8 @@ a,
     cursor: pointer;
     font-weight: 400;
     font-size: 1.6rem;
-    color: var(--title-color);
-    max-inline-size: 20rem;
+    color: var(--text-text-primary);
+    /*     max-inline-size: 20rem; */
     min-width: 12rem; /* текст в два слова */
     min-height: 4rem;
     max-height: 4rem;
@@ -356,5 +356,5 @@ a.active {
 }
 
 .modal .btn-icon path {
-    fill: var(--title-color);
+    fill: var(--text-text-primary);
 }

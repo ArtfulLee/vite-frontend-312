@@ -34,7 +34,7 @@ dialog:modal {
 .modal-title {
     width: 93%;
     display: inline-flex;
-    color: var(--title-color);
+    color: var(--text-text-primary);
     font-size: 3rem;
     font-weight: 400;
 }

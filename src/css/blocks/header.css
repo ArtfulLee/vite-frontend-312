@@ -1,6 +1,6 @@
 .header {
-    color: var(--title-color);
-    background-color: var(--body-color);
+    color: var(--text-text-primary);
+    background-color: var(--background-background);
     padding: 2rem 0;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.06) 0 6px 6px;

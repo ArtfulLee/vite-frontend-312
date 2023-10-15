@@ -29,9 +29,11 @@
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    background-color: var(--cds-theme-bgc);
-    color: var(--title-color);
+    background-color: var(--layer-layer-01);
+    color: var(--text-text-primary);
 }
 
 .card img {
@@ -110,7 +112,7 @@
 }
 
 .card-text {
-    padding: 1.6rem 1.6rem 0 1.6rem;
+    padding: 1.6rem;
 }
 
 .card-text__title {
@@ -122,9 +124,10 @@
 
 .card-text__title,
 .card-text__rating {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
     margin-bottom: 0.8rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .card-text__rating svg {
@@ -132,14 +135,14 @@
 }
 
 .card-text__rating svg path {
-    fill: var(--title-color);
+    fill: var(--text-text-primary);
 }
 
 .text-secondary {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     margin-bottom: 0.8rem;
-    color: var(--cds-grey-400);
+    color: var(--text-text-secondary);
 }
 
 .card-text__descr {
@@ -151,7 +154,7 @@
 }
 
 .card-text__price {
-    width: 57%;
+    width: 50%;
 }
 
 .price-prev {
@@ -166,30 +169,26 @@
 
 .km,
 .date {
-    color: var(--cds-grey-400);
-    font-size: 1.2rem;
-    line-height: 14px;
+    color: var(--text-text-primary);
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 .night {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 .card-bottom {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    min-height: 4.8rem;
-    bottom: 0;
-    left: 0;
     display: flex;
+    flex-grow: 1;
     justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .card-bottom [data-variant="primary"] {
-    flex: 1;
-    max-height: 100%;
+    min-height: 4.8rem;
+    width: 50%;
 }
 
 /* адаптив */
