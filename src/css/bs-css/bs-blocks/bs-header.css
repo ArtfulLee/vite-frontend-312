@@ -1,3 +1,30 @@
 * {
-    outline: 1px solid red;
+    outline: 1px solid rgba(255, 0, 0, 0.1);
+}
+
+.btn-primary {
+    --bs-btn-padding-x: 1.68rem;
+    --bs-btn-padding-y: 0.75rem;
+    --bs-btn-bg: #75bf7a;
+    --bs-btn-border-color: #75bf7a;
+    --bs-btn-hover-bg: #61a065;
+    --bs-btn-hover-border-color: #61a065;
+    --bs-btn-active-bg: #61a065;
+    --bs-btn-active-border-color: #61a065;
+
+    --bs-btn-font-size: 1.37rem;
+    --bs-btn-font-weight: 600;
+    --bs-btn-line-height: 1.5;
+}
+
+.navbar {
+    --bs-navbar-brand-margin-end: 2.87rem;
+}
+
+.navbar-brand {
+    --bs-navbar-brand-font-size: 1.06rem;
+    --bs-navbar-brand-color: #000000;
+
+    font-weight: 500;
+    line-height: normal;
 }
