@@ -11,20 +11,13 @@
     --bs-btn-hover-border-color: #61a065;
     --bs-btn-active-bg: #61a065;
     --bs-btn-active-border-color: #61a065;
-
     --bs-btn-font-size: 1.37rem;
     --bs-btn-font-weight: 600;
     --bs-btn-line-height: 1.5;
 }
 
-.navbar {
-    --bs-navbar-brand-margin-end: 2.87rem;
-}
-
-.navbar-brand {
-    --bs-navbar-brand-font-size: 1.06rem;
-    --bs-navbar-brand-color: #000000;
-
-    font-weight: 500;
-    line-height: normal;
+.nav-link {
+    --bs-nav-link-font-size: 1.06rem;
+    --bs-nav-link-font-weight: 500;
+    --bs-nav-link-color: #000000;
 }
