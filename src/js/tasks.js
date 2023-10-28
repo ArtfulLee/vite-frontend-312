@@ -86,6 +86,14 @@ const renderData = () => {
     swiperWrapper.appendChild(div) // Вставка сформированной дивки в swiperWrapper
   })
   initTasksSwiper() // Вызов функции для инициализации слайдера
+
+  const hearts = document.querySelectorAll('.card-heart')
+
+  hearts.forEach((heart) => {
+    heart.addEventListener('click', () => {
+      heart.classList.toggle('heart-active')
+    })
+  })
 }
 
 function displayTasksDetails() {
@@ -135,9 +143,9 @@ function displayTasksDetails() {
           <h3 class="descrption-subtitle">${cardInfo?.description}</h3>
 
           <h3 class="descrption-subtitle">Price:</h3>
-          <p>${cardInfo?.price}</p>
+          <p class="descrption-subtitle">${cardInfo?.price}</p>
           <h3 class="descrption-subtitle">Category:</h3>
-          <p>${cardInfo?.category}</p>
+          <p class="descrption-subtitle">${cardInfo?.category}</p>
       </div>
     </div>
   `
@@ -145,6 +153,14 @@ function displayTasksDetails() {
   document.querySelector('#tasks-details').appendChild(div)
 
   initTasksDetailsSwiper()
+
+  const hearts = document.querySelectorAll('.details-heart')
+
+  hearts.forEach((heart) => {
+    heart.addEventListener('click', () => {
+      heart.classList.toggle('heart-active')
+    })
+  })
 }
 
 /* Слайдер tasks */
