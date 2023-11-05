@@ -1,3 +1,96 @@
+$brand-purple:#8C30F5
+$default-white: #ffffff
+$text-gray-900: #18191F
+$font-family: 'Manrope', sans-serif
+
+.wrapper
+  width: 1100px
+  margin: auto
+
 .clients
-  background-color: tomato
-  color: #000
+  background-color: $brand-purple
+  &__head
+    padding: 80px 0 32px
+    color: $default-white
+    font-family: $font-family
+    font-size: 48px
+    font-weight: 800
+    line-height: 64px
+  &__table-2-row
+    display: flex
+    justify-content: space-between
+  &__table-col
+    padding-bottom: 40px
+    width: 540px
+  &__descrption
+    position: relative
+    background-color: $default-white
+    border-radius: 10px
+    margin-bottom: 28px
+    &::after
+      position: absolute
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+      top: 94%
+      content: ''
+      width: 24px
+      height: 24px
+      background-color: $default-white
+      border-bottom-right-radius: 4px
+      transform: rotate(45deg)
+  &__text-elem
+    padding: 32px
+  &__header
+    text-align: center
+    color: $text-gray-900
+    font-family: $font-family
+    font-size: 18px
+    font-weight: 500
+    line-height: 28px
+    padding-bottom: 8px
+  &__sentence
+    text-align: center
+    color: $text-gray-900
+    font-family: $font-family
+    font-size: 14px
+    font-weight: 400
+    line-height: 24px
+  &__client
+    display: flex
+    justify-content: center
+    margin-bottom: 40px
+  &__client-photo
+    margin-right: 16px
+  &__client-name
+    color: $default-white
+    font-family: $font-family
+    font-size: 18px
+    font-weight: 700
+    line-height: 28px
+  &__client-specialization
+    color: $default-white
+    font-family: $font-family
+    font-size: 14px
+    font-weight: 400
+    line-height: 24px
+  &__pagination
+    display: flex
+    justify-content: space-between
+    margin: auto
+    width: 54px
+    padding: 0 0 80px
+  &__pagination-element
+    width: 8px
+    height: 8px
+    border: 2px solid $default-white
+    border-radius: 50%
+    opacity: 0.5
+    &_active
+      width: 8px
+      height: 8px
+      border: 2px solid $default-white
+      border-radius: 50%
+      background-color: $default-white
+      opacity: 1
